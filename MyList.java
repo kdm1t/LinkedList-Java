@@ -191,11 +191,10 @@ public class MyList<T> {
 
     public void displayList() {
         ElementOfList<T> current = head;
-        while (current != null) {
-            System.out.print(current.fieldOfData + "    ");
-            current = current.next;
+        for (int i = 0; current != null; current = current.next, i++) {
+            System.out.print("[" + i + "] " + current.fieldOfData + " | ");
         }
-        System.out.println("   size is " + this.size);
+        System.out.println(" Size is " + this.size);
     }
 
     static class ElementOfList<T> {

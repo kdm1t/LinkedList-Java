@@ -1,7 +1,7 @@
 # LinkedList-Java
 ### Структура данных:
 Односвязный линейный список  
-![IMG]()
+![IMG](https://github.com/kdm1t/LinkedList-Java/blob/master/images/structure.png)
 
 ### Классы и их назначение:
 #### `public class MyList<T>` - односвязный линейный список (ссылочный).
